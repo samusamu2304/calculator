@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Courier New", Courier, monospace;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#screen {
+    text-align: end;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: black;
+    color: green;
+    height: 1.5rem;
+}
+
+#keyboard {
+    display: flex;
+}
+
+#keyboard button {
+}
+
+#numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: calc(100% / 3);
+}
+
+.number.zero {
+    flex: 1 1 auto;
+}
+
+#operators {
+    display: flex;
+    flex-direction: column;
+}
